@@ -17,7 +17,7 @@ int my_knapSack() {
 
     int max_value = knapSack(weights, values, item_names, items);
 
-    printf("Maximum value: %d\r\n", max_value);
+    printf("Maximum value: %d\n", max_value);
     printf("Selected items:");
     for (int i = 0; i < TOTAL_ITEMS; i++) {
         if (items[i] != '\0') { 
